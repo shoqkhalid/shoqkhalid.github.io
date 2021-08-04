@@ -464,4 +464,10 @@ body{
   h2.med{
     font-size: 24px;
   }
+    .social{
+    display: none;
+  }
+  .header-right .lrbtn{
+    display: none;
+  }
 }
