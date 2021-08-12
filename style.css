@@ -865,17 +865,21 @@ border-bottom: 1px solid #1c1e22;
   margin: 0;
 }
 .Contact-footer .social li{
-    width: 61px;
-    height: 61px;
-    line-height: 57px;
-    margin-right: 15px;
-    background: linear-gradient(145deg, #1e2024, #23272b);
-    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
-    border-radius: 6px;
-    text-align: center;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  border-radius: 9%;
+  background: linear-gradient(145deg, #1e2024, #23272b);
+  box-shadow: 19px 14px 19px #1c1e22, -7px -6px 19px #262a2e; 
+  margin-right: 3%;
 }
 .Contact-footer .social i{
   color: #c4cfde;
+}
+.Contact-footer .social li:hover{
+  margin-top: -3px;
 }
 
 .Contact-form{
@@ -930,6 +934,9 @@ border-bottom: 1px solid #1c1e22;
 }
 .Contact-form button i{
   color: #ff014f;
+}
+.Contact-form button:hover{
+  margin-top: -3px;
 }
 
 .footer p{
