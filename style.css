@@ -30,10 +30,22 @@ button.header-btn:hover {
   border: 0;
 }
 
-.close{
+.close {
   position: relative;
   left: 85%;
   padding-top: 5%;
+}
+.close button{
+  width: 45px;
+  background: transparent;
+  border-radius: 50%;
+  border: none;
+  text-align: center;
+  box-shadow: 0px 0px 19px #1c1e22, -13px -20px 0px 20px #1d2125 inset;
+  height: 45px;
+}
+.navbar.navbar-collapse .navbar-brand{
+  width: 50%;
 }
 .close i{
   color: #ff014f;
