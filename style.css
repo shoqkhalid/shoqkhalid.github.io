@@ -3,12 +3,13 @@
   font-family: 'Montserrat', sans-serif;
 }
 .padd{
-  padding-top:8% ;
-  padding-bottom:8% ;
+  padding: 13% 0;
 }
-.side-padd{
-  padding-left: 9%;
-  padding-right: 9%;
+header{
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 70;
 }
 button.header-btn {
   border-radius: 8%;
@@ -29,7 +30,6 @@ button.header-btn:hover {
 .navbar-toggler{
   border: 0;
 }
-
 .close {
   position: relative;
   left: 85%;
@@ -73,6 +73,11 @@ button.header-btn:hover {
   font-size: 14px;
   letter-spacing: 2px;
   color: #c4cfde;
+}
+.navbar.navbar-collapse{
+  position: fixed;
+  height: 100vh;
+  top: 0px;
 }
 .navbar .navbar-nav .nav-link {
   padding-right: 1.5rem;
@@ -939,16 +944,17 @@ border-bottom: 1px solid #1c1e22;
   font-size: 14px;
   border: 0;
   width: 100%;
-  border-radius: 6px;
+  border-radius: 4%;
   background: linear-gradient(145deg, #1e2024, #23272b);
   box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
   position: relative;
 }
-.Contact-form button i{
-  color: #ff014f;
-}
 .Contact-form button:hover{
   margin-top: -3px;
+}
+
+.Contact-form button i{
+  color: #ff014f;
 }
 
 .footer p{
@@ -956,10 +962,7 @@ border-bottom: 1px solid #1c1e22;
     color: #878e99;
 }
 @media (min-width :1200px){
-  .side-padd{
-    padding-left:  0;
-    padding-right:  0;
-  }
+
 }
 @media (max-width : 1199px){
   nav.navbar ul.navbar-nav , button.header-btn{
@@ -968,6 +971,9 @@ border-bottom: 1px solid #1c1e22;
   
 }
 @media (max-width :992px){
+  .intro .padd{
+    padding: 27% 0 ;
+  }
   .pricing-heading{
     text-align: center;
   }
@@ -995,7 +1001,7 @@ border-bottom: 1px solid #1c1e22;
   }
 }
 @media (max-width :769px){
-  .nav-item{
+  .nav.nav-tabs .nav-item{
     width: 100%;
   }
 }
